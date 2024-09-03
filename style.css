@@ -6,3 +6,42 @@
     width: auto;
     height: auto;
 }
+
+footer{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+.titulocontato{
+    margin-left: 35%;
+}
+
+form{
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.destaques{
+    margin: 10vh;
+}
+
+.apresentacao{
+    max-width: 160vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh;
+}
