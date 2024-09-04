@@ -8,7 +8,8 @@
 }
 
 footer{
-    background-color: gray;
+    background-color: rgb(44, 17, 17);
+    color: azure;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -78,4 +79,28 @@ aside{
     background-color: cadetblue;
     height: 50%;
     margin-top: 20vh;
+}
+
+.redes{
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+i{
+    margin: 1vh;
+}
+
+.img-produto{
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.detalhe-cont{
+    margin-bottom: 15vh;
+}
+
+.icon-car{
+    margin-top: 2vh;
 }

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9813748005.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -26,6 +27,7 @@
                         <a class="nav-link" aria-current="page" href="/index.html">Home</a>
                         <a class="nav-link" href="/categorias.html">Categorias</a>
                         <a class="nav-link" href="/contato.html">Contato</a>
+                        <i class="fa-solid fa-cart-shopping icon-car"></i>
                     </div>
                 </div>
             </div>
@@ -56,33 +58,30 @@
         <div class="row linha">
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PEBUQDRAPDQ8PEBAQDg8PDw8QDw0PFREWFhURFRUYHSggGBolGxUVITEhJSkuLi4wFx8zOTMsQygwLisBCgoKDg0OFQ8PGi0dFRkrMSw3LS4tLSsrKy0tLS0rKys3NystLS0tNys4KzArKzctKystKysrKystKystKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAAAQIHCAMEBgX/xABKEAACAgEBBQQECAgLCQAAAAAAAQIDBBEFBhIhMQdBUWETcYGRCBQiIzKSobFCUmJygqLBwiQzQ1Njc3STsrPRFTQ1RGSDo8Px/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABkRAQEBAQEBAAAAAAAAAAAAAAABEQISMf/aAAwDAQACEQMRAD8AziAAAAAAAAAAAAABsFLpaRbfdFv3ID4uTvPVHlXGVvnyhF+18/sOlPeqzuqgvXJs6VOHGaeqfLvTOvPDXi9PVqcvVax9aG9VnfVB+qbX7Gduneit/TrnH81xkl9x5x0Jd7fs0OC6OnQeqYyLRdGcVOD4oyWqfii58vdl64tflxr9eR9Q6RkABQAAAAAAAAAAAAAAAAAAAAAADq7S2lRi1u3Kuqx611nbOMI6+Gr7/IDtAxdvD20YVOsMCmzOmulktaKNfXJcb+ro/Exvt7tJ2tm6qWQ8Wt/yWInStPOerm/raeQGf94N68DZ61zMiuuemsaVJSvs/NrXyn69NDxmxd/r9qXWxqqji4lUFyk+PIuc29OJr5MFpGWqWvVfK6mB4L5Wr5tvWTfWTfVt97Pddme0oU5E6pvT4xGKg3044cT4fW1J/VJ18Iy/h2KMX58/vOvYIM5PQyktYpv1HFt1ZI4L4n0Pic9G9HyWp1r4rTXXn4aAW2ft2zFrcY0/GFxcXB6RVyS7+FtaN9OTaXXmfS2Tv1s/Is9BKx4mTyTxstKmzVrVKL1cJ/oyZ8NcKTcmlGKbk29EkubbMLb07SjmZNlsV82/kVJrrXHkm1583p5nTi1mtqwambI3jz8LT4nl5FEV0rU3Kpf9qesPsPe7D7bMyvSOfj1ZUe+ylum1LxcXrGT+qbRnYHkN3e0nZWc1GGQse6WmlOUvQzbfdGTfBJ+UZM9eAAAAAAAAAAAAAAAAAOptTaVGLU7sq2FFUes7JJLV9EvFvuS5s+LvrvljbKq4rfnb5p+gxotKdj/Gb/Agu+T9mr5Gve8u8eVtK702XY5aa+jqjqqaI/iwj3eb6vvYGQN7e2Wxt1bIq9HHp8ayI6zfnXV0Xrnr5xMWbT2hkZdnpcu63Js/Htk5OKfdFdIryWiONoaAcagTwlyQOPQ5qrGmmm4yi04tPRpp6pp9zKgDJO7/AGhw4VDPUoSS09PXFyhLzlBc0/UmvV0Pd7N3tx5x4cfJx5d+npIcfti+a9xr7qG/FGbxF1sZdt5aPjuqitObc4JaevU8vtPe7AqT1yIWvujR8835ax+Sva0Ya0Xh9wcieIa9NvLvfblxdVUXRQ/pLXWy1eEmuSX5K976HlpvX1CTBuTEV4CHEuNAOKVaZ6LdjffaWzWlj3ysojprjXt2UcPhFPnD9Fr2nwtCGgNmNxd+cXa9fzfzOTBJ3Y02nKH5cH+HDX8JeWqWp6o1E2fm241sL8acqbqpcVdkesX+1Napp8mm0zZLs/3xq2tjceiryatI5VKf0JPpOPfwS0bXqa7gPUgAAAAAAAAAAeN7Qd/Ktlw9HXw3Ztkdaqdfk1RfL0tunSPgusmuWnNrj7Rt/K9l1+ip4bc62Otdb5xoi+XprPLrpHrJrwTa1+zMqy2crbpytttk52WTespyfe/u06JJJdALbV2hdk2yvybJXW2PWc5dX4JLoku5Lkjp6ky6HXlbpJp+IHaT5EalE+RMQLMgkACSABJADAMhhMkCrQLFdABKIGoBPkSykCWwJmuSPqbp7wXbOyoZNHNwfDbXror6W1xVv16Jp9zSfdofJk9UUx11fiwNu9k7Rqy6K8jHlx1XQU4S6PR9zXc09U13NNHbMG9iO9XoLns6+XzWS3PGbfKvI01lX5KaWv5y8ZGcgAAAAAAeV7RN7P8AZWKrIVuy66bpx9V81CzhcuKx+CSb4VzemnLm16o+ZvJsSraGLZi3/RtjyktOKqxc4WR809H59O8DVvMyrLrJ3XzlbbbJzssm9ZTk+9/YklySSS0SOu2d3a2zrcS+zGyI8N1E+CaX0Zd8Zx8YyTTXkzogJdDq5Eeb8ztnDJa+4ClE9V6upzxOtUtJPz5nYiBYsVRIEggAGQSQgILIqyUBYgACDjsfJnIzgsYF4dCJMmJWYForkRR09pd9CtXQDkqnKLUoScJwkpQnF6ShOL1jJPuaaT9hs7uBvNHaeFC96K6PzWVBfgXxS4ml3KSakvKSNYO89f2Zb1f7MzU7ZaYmTw1ZOr+TXz+Rf+i29fyZS8EBsmAmAAAAAADGvbPue8uhZ2LDiysSL9JGK1eRja6yj5yjzkv0lz1RgmqxTWq/+G4BgTtd7PnhzltHZ8f4NOXFk1RXLFm3zmkv5Nv6rfg/khjzQ4bORau9S8n3o59m7Ouy7o4+LXK66xpQhH7ZSfSMV3t8kB86HG5a6N6LV6R1UY6pavwWrS180dmLM9U9nlOBsXMpXDdmX4dzuv0+lZGtyhXDXmoKSWne+r8FgOHP3AciJIQAajUhgCwBCAlkBkASmTqVYQBs4JdTmOGXUDkid3Y2x786+ONixU7pxslGLkoqShBza1fJNpaLXlq1zXU6UT3/AGHU8W19f5vDyJ/r1Q/fA8DxavhaacW1JSTUk1yaafR6is+rv9shYm1cutp6fGZ21rmtYXfOxS9Snp7D5dcXpz6gSzkppnZKMK4uydkowrhFaynOT0jFebbSKNePuM49k/Z+8VLPz4aZUov4vTJc8WElo5yXdY09NPwU2uraQe83X2fZi4WPj3T9JbTRVXZPVvWUYpNJvql0XkkfUAAAAAAABWyEZJxklKMk4yjJJxlFrRpp9UWAGJdtdh+Pbc7MPLlh1yfEqZY/p1Xr+DCXpItR8nr6z3u6e6WHsuvgxK/lyS9NfPSV17XfKXh4RWiXcj7oA48ipThKD6TjKL9TWhp9VW4pRktJRXDJeDXJr3m4pqZvFT6PNyq+nBmZcF6lkTS+xAdFAIgAwGAJCJIAMglkAGECEwBxT6nIzjt7gLxMo/B+o1zcqzTnXi1wT8PSW6tf+Je4xbEzJ8Hijlm2/jSxql+hGyT/AMxAdbt+2TGu2jPS0VkXi2y7lOOs6va07Of5KPIbt7h7T2ho6aHRS/8AmMniqra8Yprin64rTzRsxOEZLSSUlqno0mtU9U/eWA8Jub2X4Wz5RuubzcqDUo2WRUaqpeNdfPR+cm2u7Q92AAAAAAAAAAAAAAADWHtKp9HtjMj0+ejP+8qhZ+8bPGufbPQobZtaWnpaMe1+b4HX/wCtAeKIQABkAAXZUlkASyCSABUsVYBnHai8u4rb0ARM7/B+o02ffNrT0mdPR+MY0UrX38XuMDxfI2M7EaeHY1Mv5y3Kn7sicP3APeAAAAAAAAAAAAAAAAAAAYG7e8fh2jTZ3WYUYe2F1rf+NGeTCvwha9LsKX41eXH6sqH+8BiZkkMkCAgEBdlCzKgSyCWQAIZJVgJdCJdCUVXQCkXyNpOzLH9HsfCj44tdn94vSa/rGq8npF+SZuBsPEVGLRSloqcempLwUK1HT7AO8AAAAAAAAAAAAAAAAAABiH4QkVwYb71PIS9TjXr9yMvGH/hCS5YS8ZZT9yp/1Aw2+4sV7yUAYj1DEQLMqWKsCSAQBJVkkAQiF3ksrLr60Bz7FxldlU0yWquyaKpJ98Z2xi17mbgmpm5UOLamGv8ArsSX1b4y/YbZgAAAAAAAAAAAAAAAAAAAMNfCGfy8D83O+/GMymGPhDP5eD+ZnffjAYhXUsise8sgIJiQyYAWKFmVAkgkgAQSQBEisy7KPoB9rcD/AIvhf2ur7G2bXGqnZ1HXbGF/aYv3RkzasAAAAAAAAAAAAAAAAAAABhb4Qz+dwf6vM/xY5mkwn8IZ/P4XlVlv9ekDE0CURAkCGWiVZaPQCWVLMqwJRAQAEMBgCpYhgel7KKlLbeHF91l0vq41sl9xtCaxdk0ktuYb8ZZC9+Jcv2mzoAAAAAAAAAAAAAAAAAAADB/whX/CcNf0GR9tlf8AoZwMF/CBeuZirwxrH77V/oBi8gMAQy6KHIwIZEg2JAEQwgwAZDZGoEoEJgD0nZnLTbOE/wCnkvfTYjaM1S3HyvQ7Tw7O5ZdMHr3KyXom/Ypt+w2tAAAAAAAAAAAAAAAAAAAAYD7fLddp1R7o4Nb9sr7tf8KM+GJu1DcHaG0M74ziKmVax6quGVvBZxRnZJ8nHT8PxAwi5cy2h6Pae5W0sWXDkYzhy4lJXY0lKOumq4Za/YVxN1cy3pCMV42WNL7EybB56KLM+9lbpZ1WrdasXjVYpcvU9D5lmFdH6Vc15cPF9w2GOkw2c/oJfiP6ki3xab5KuT9UJFHWQO9Vsy+XKNUn9Vfezv1br5suaqaXnJImwx8FojRn3pbt5SejUNfDjl+xFq91syXStP8ATa+9D1Fx53oWR6N7oZ/dS36ra/2s69m7OfH6WNZ7JUS+6Q2Jj4sMh1SjZH6VUo2R/OhJSX2o3ErmpJSi9VJJp+KfQ1Z2Tujn5ljpx6HKcYuU+OdVajHVLV8T8Wumpslulh5GPg49OW4yvporqscZOSbhHhXymlq9EtX46lH1gAAAAAAAAAAAAAAAAAAAAHhe0H+Nh/U/vs+Nj9CAcevrccsuh5HbH036wCD5dpWsAD0OxT7sugAHzIfxj9TPp44AHbicV/RkgDs9n/8Av1v9mf8AmQMigHXj4zQAGkAAAAAAAAf/2Q==" class="card-img-top imagem-produto" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h5 class="card-title">Camisa preta</h5>
+                        <p class="card-text">Preço: 39,99</p>
                         <a href="/detalheroupa.html" class="btn btn-primary">Adicionar ao carrinho</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="https://alternativafotoproduto.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/a/camisa_azul_neon_1_2.jpg" class="card-img-top imagem-produto" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h5 class="card-title">Camisa azul</h5>
+                        <p class="card-text">Preço: 39,99</p>
                         <a href="/detalheroupa.html" class="btn btn-primary">Adicionar ao carrinho</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="https://alternativafotoproduto.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/a/camiseta_vermelha_2.png" class="card-img-top imagem-produto" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h5 class="card-title">Camisa vermelha</h5>
+                        <p class="card-text">Preço: 39,99</p>
                         <a href="/detalheroupa.html" class="btn btn-primary">Adicionar ao carrinho</a>
                     </div>
                 </div>
@@ -92,34 +91,34 @@
         <div class="row linha">
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="..." class="card-img-top imagem-produto" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                        <a href="/detalhebeleza.html" class="btn btn-primary">Adicionar ao carrinho</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="..." class="card-img-top imagem-produto" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                        <a href="/detalhebeleza.html" class="btn btn-primary">Adicionar ao carrinho</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="..." class="card-img-top imagem-produto" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                        <a href="/detalhebeleza.html" class="btn btn-primary">Adicionar ao carrinho</a>
                     </div>
                 </div>
             </div>
@@ -128,34 +127,34 @@
         <div class="row linha">
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="..." class="card-img-top imagem-produto" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                        <a href="/detalhecasa.html" class="btn btn-primary">Adicionar ao carrinho</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="..." class="card-img-top imagem-produto" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                        <a href="/detalhecasa.html" class="btn btn-primary">Adicionar ao carrinho</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="..." class="card-img-top imagem-produto" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                        <a href="/detalhecasa.html" class="btn btn-primary">Adicionar ao carrinho</a>
                     </div>
                 </div>
             </div>
@@ -164,34 +163,34 @@
         <div class="row linha">
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="..." class="card-img-top imagem-produto" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                        <a href="/detalhetec.html" class="btn btn-primary">Adicionar ao carrinho</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="..." class="card-img-top imagem-produto" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                        <a href="/detalhetec.html" class="btn btn-primary">Adicionar ao carrinho</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="..." class="card-img-top imagem-produto" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                        <a href="/detalhetec.html" class="btn btn-primary">Adicionar ao carrinho</a>
                     </div>
                 </div>
             </div>
@@ -200,9 +199,11 @@
 
 
     <footer>
-        <img src="..." alt="">
-        <img src="..." alt="">
-        <img src="..." alt="">
+        <div class="redes">
+            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.github.com"><i class="fa-brands fa-github"></i></a>
+        </div>
 
         <h3>EcoTrend</h3>
 
