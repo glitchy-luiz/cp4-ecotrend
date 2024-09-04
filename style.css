@@ -45,3 +45,37 @@ form{
     justify-content: center;
     margin: 10vh;
 }
+
+.contcategoria{
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+
+.nomerow{
+    margin:2vh;
+}
+
+.linha{
+    margin-left: 10vh;
+}
+
+.cont-info{
+    display: flex;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+
+.info-img{
+    max-width:450px;
+    max-height:600px;
+    width: auto;
+    height: auto;
+    margin-left: 15%;
+}
+
+aside{
+    position: fixed;
+    background-color: cadetblue;
+    height: 50%;
+    margin-top: 20vh;
+}
